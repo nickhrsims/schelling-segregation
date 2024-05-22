@@ -33,6 +33,7 @@ catch2 = dependency('catch2-with-main', version : '3.5.4')
 
 core_sources = [
     'src/main.cpp',
+    'src/rng.cpp',
 ]
 
 core_deps = [
@@ -40,10 +41,10 @@ core_deps = [
 ]
 
 exe = executable('schelling',
-                 core_sources,
-                 install : false,
-                 include_directories : ['src', 'contrib/sos/include'],
-                 dependencies : core_deps,
+                core_sources,
+                install : false,
+                include_directories : ['src', 'contrib/sos/include'],
+                dependencies : core_deps,
 )
 
 
