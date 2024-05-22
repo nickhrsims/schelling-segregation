@@ -9,4 +9,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial build infrastructure
+- Initial build infrastructure.
+- First iteration of simulation.
